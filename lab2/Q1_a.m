@@ -1,6 +1,6 @@
 A=[10^(-20) 1;1 1];
 genp(A);
-fprintf("this uncertainity coming because of dividing with very less number %d so this matrix is very close to singular matrix ",10^(-20));
+fprintf("this uncertainity coming because of the very less number %d so this matrix is very close to singular matrix ",10^(-20));
 
 
 function [L,U] =genp(A)
